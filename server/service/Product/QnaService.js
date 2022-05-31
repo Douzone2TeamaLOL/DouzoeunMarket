@@ -8,4 +8,5 @@ const QnaService = async (req, res) => {
   });
   res.json(data);
 };
+
 export default QnaService;

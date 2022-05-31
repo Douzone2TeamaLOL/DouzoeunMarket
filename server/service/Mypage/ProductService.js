@@ -22,6 +22,7 @@ const ProductService = async (req, res) => {
     offset: page,
     where: { seller: userId },
   });
+  console.log(">>>>>>>>>>" + JSON.stringify(data) + "<<<<<<<<<<<");
   res.json(data);
 };
 

@@ -32,6 +32,7 @@ productRouter.get("/detail/qna/:id", QnaService2);
 productRouter.delete("/detail/qna/:idx", QnaDelService);
 
 productRouter.post("/favorite", FavoriteService);
+
 productRouter.get("/pay/:id/:email", PayService, PayService2, PayService3);
 
 productRouter.post(
